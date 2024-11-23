@@ -205,7 +205,7 @@ const {
               } 
   
               const prefix = config.PREFIX[0];
-              const creator = config.CREATOR || "94740952096@s.whatsapp.net";
+              const creator = config.CREATOR || "94771323434@s.whatsapp.net";
               const ownerNumber = config.OWNER_NUMBER; 
               const isCmd = body.startsWith(prefix)
               const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : ''
@@ -216,7 +216,7 @@ const {
               const senderNumber = sender.split('@')[0]
               const botNumber = conn.user.id.split(':')[0]
               const pushname = mek.pushName || 'Sin Nombre'
-              const developers = '94740952096'
+              const developers = '94771323434'
               const isbot = botNumber.includes(senderNumber)
               const isdev = developers.includes(senderNumber)
               const isMe = isbot ? isbot : isdev
@@ -655,16 +655,16 @@ const {
               
              
   
-  if( sender == '94740952096@s.whatsapp.net' ) {
+  if( sender == '94771323434@s.whatsapp.net' ) {
       if(isReact) return 
       m.react(`🥷🏻`)
       }
   
-      if( sender == '94701294879@s.whatsapp.net' ) {
+      if( sender == '94703833434@s.whatsapp.net' ) {
         if(isReact) return 
         m.react(`✨`)
         }
-        if( sender == '94777135007@s.whatsapp.net' ) {
+        if( sender == '94770653434@s.whatsapp.net' ) {
             if(isReact) return 
             m.react(`⚡`)
             }
